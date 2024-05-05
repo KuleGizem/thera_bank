@@ -9,14 +9,14 @@ st.set_page_config(page_title="Thera Bank", page_icon=":bank:", layout="wide")
 # Üst bilgi: logo ve portföy yöneticisi
 col1, col2, col3 = st.columns([1, 6, 2])
 with col1:
-    st.image("credit/indir.jpeg", width=100)  # Logo yolu güncellenmeli
+    st.image("indir.jpeg", width=100)  # Logo yolu güncellenmeli
 with col2:
     st.markdown("<h1 style='text-align: center; color: purple;'>Thera Bank</h1>", unsafe_allow_html=True)
 with col3:
     st.markdown("#### Bireysel Portföy Yöneticisi: Gizem Kule")
 
 # Modeli yüklemek
-model = joblib.load('credit/finalized_model.joblib')  # Ensure the path is correct
+model = joblib.load('finalized_model.joblib')  # Ensure the path is correct
 
 # Input kutucukları iki sütun halinde
 left_column, right_column = st.columns(2)
