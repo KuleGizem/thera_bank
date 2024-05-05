@@ -29,6 +29,6 @@ Depoda bulunan başlıca dosyalar:
 Projeyi yerel makinenizde çalıştırmak için şu adımları izleyebilirsiniz:
 
 1. GitHub'dan projeyi klonlayın.
-2. Python 3.7 veya daha yeni bir sürümünü yükleyin.
+2. Python 3.8 veya daha yeni bir sürümünü yükleyin.
 3. Projeyi içeren dizine gidin ve terminalde `pip install -r requirements.txt` komutunu çalıştırarak gerekli bağımlılıkları yükleyin.
 4. Projeyi bir Python IDE'sinde veya Jupyter Notebook'ta açın.
