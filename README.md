@@ -11,11 +11,17 @@ Bu projenin amacı, Thera Bank'ın bir müşterisine kredi ön onayı verilip ve
 Depoda bulunan başlıca dosyalar:
 
 1.analysis.py: Veri analizi ve ön işleme işlemlerinin yapıldığı Python scripti.
+
 2.best_pipeline.py: TPOT tarafından seçilen en iyi makine öğrenmesi pipeline'ını içeren Python scripti.
+
 3.finalized_model.joblib: Eğitilmiş modelin kaydedildiği dosya.
+
 4.model3.py: Alternatif model yapılandırmalarını içeren Python scripti.
+
 5.performance.py: Model performans değerlendirme scripti.
+
 6.streamlit_app.py: Modelin sonuçlarını görselleştirmek için Streamlit uygulaması.
+
 7.requirements.txt: Projede kullanılan Python kütüphanelerini içeren gereksinimler dosyası.
 
 # Kurulum 💻
